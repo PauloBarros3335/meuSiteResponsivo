@@ -121,7 +121,9 @@
     margin: 0 auto;
     max-width: 1000px;
     padding: 10px;
-    background-image: linear-gradient(205deg, #0000004f, transparent);
+    /*background-image: linear-gradient(205deg, #0000004f, transparent);*/
+    border: red 10px;
+     background-image: red;
   }
   
   #serviços div {
@@ -130,9 +132,11 @@
     align-items: center;
     text-align: center;
     margin-top: 30px;
+   
   }
   
   #serviços div img {
+    width: 100%;
   }
   
   #fotos {
@@ -242,7 +246,7 @@
     }
   
     #serviços div img {
-      width: 50%;
+      width: 100%;
     }
   
     #fotos {
